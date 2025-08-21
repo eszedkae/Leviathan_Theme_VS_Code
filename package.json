@@ -1,0 +1,21 @@
+{
+  "name": "leviathan-theme",
+  "displayName": "leviathan_theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "leviathan-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leviathan-theme-color-theme.json"
+      }
+    ]
+  }
+}
