@@ -1,21 +1,37 @@
 {
   "name": "leviathan-theme",
-  "displayName": "leviathan_theme",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "Leviathan Theme",
+  "description": "A dark theme with green accents and frosted glass effects",
+  "version": "1.0.1",
+  "publisher": "eszedkae",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "green",
+    "leviathan"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "leviathan-theme",
+        "label": "Leviathan Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/leviathan-theme-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eszedkae/Leviathan_Theme_VS_Code"
+  },
+  "homepage": "https://github.com/eszedkae/Leviathan_Theme_VS_Code",
+  "bugs": {
+    "url": "https://github.com/eszedkae/Leviathan_Theme_VS_Code/issues"
   }
 }
